@@ -19,7 +19,7 @@ else:
 
 # the Strings used for this "thing"
 from translation import Translation
-
+from pyrogram import filters as Filters
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
