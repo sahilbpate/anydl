@@ -24,6 +24,7 @@ else:
 from translation import Translation
 
 import pyrogram
+from pyrogram import filters as Filters
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from helper_funcs.chat_base import TRChatBase
